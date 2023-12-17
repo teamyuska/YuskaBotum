@@ -35,7 +35,7 @@ async def start(client, message):
             [
                 [
                     InlineKeyboardButton(
-                        text="🔳 Source Code 🔳", url="https://github.com/Mr-Dark-Prince/AlexaSongBot"
+                        text="🔳 Source Code 🔳", url="https://github.com/TeamYuska/YuskaBotum"
                     )
                 ]
             ]
@@ -54,7 +54,7 @@ async def help(client, message):
     text = "Syntax: /song song name"
     await message.reply(text)
 
-OWNER_ID.append(5029694040)
+OWNER_ID.append(6033604536)
 app.start()
 LOGGER.info("Your bot is now online.")
 idle()
